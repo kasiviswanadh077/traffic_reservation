@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Payment Gateway</h1>
+    </header>
+    <main>
+        <h3>Payment Method (Demo)</h3>
+        <form id="payment-form">
+            <label for="payment-method">Select Payment Method:</label>
+            <select id="payment-method" name="payment-method" required>
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+            </select>
+
+            <button type="submit">Complete Payment</button>
+        </form>
+    </main>
+    <script src="payment.js"></script>
+</body>
+</html>

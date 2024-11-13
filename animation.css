@@ -1,0 +1,27 @@
+/* Basic animations and transitions */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+.slide-in {
+    transform: translateX(-100%);
+    animation: slide-in 0.5s forwards;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
